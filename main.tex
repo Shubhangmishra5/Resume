@@ -1,0 +1,247 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.8in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+\begin{center}
+    {\Huge \scshape Shubhang Mishra} \\ \vspace{0.5pt}
+    Greater Noida, Uttar Pradesh, India - 201310 \\ \vspace{0.5pt}
+    \small \raisebox{-0.0\height}\faPhone\ +91-7654025369 ~ \href{mailto:shubhangmishra5@gmail.com}{\raisebox{-0.0\height}\faEnvelope\  \ shubhangmishra5@gmail.com} ~ \href{https://www.linkedin.com/in/shubhang-mishra-b7b1181b2/
+}{\raisebox{-0.0\height}\faLinkedin\ \ Shubhang Mishra}  ~
+    \href{https://github.com/Shubhangmishra5}{\raisebox{-0.0\height}\faGithub\ \ Shubhangmishra5}
+    \vspace{-8pt}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {ITS Engineering College, Greater Noida}{july 2022 -- August 2025}
+      {B.Tech. in Artificial Intelligence and Machine Learning}{}
+     
+    \resumeSubheading
+      {Priyadarshini Polytechnic, Nagpur}{May 2019 -- June 2022}
+      {Diploma in Electrical Engineering}{}  
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading      
+      {Satyam Software Solution Pvt. Ltd.}{Noida}
+      {Trainee Engineer }{\textbf{December 2024 - January 2025}}
+      \resumeItemListStart
+        \resumeItem{Learned core to advanced electronics, including circuits, PCB design, converters, and electronic components.}
+        \resumeItem{Worked on live research and development projects, gaining practical experience and improving problem-solving skills.}
+      \resumeItemListEnd
+    
+    
+    \resumeSubheading      
+      {NewGen IEDC, Nav, Greater Noida}{Greater Noida}
+      {Project Intern}{\textbf{January 2024 - November 2024}}
+      \resumeItemListStart
+        \resumeItem{Led student teams in developing  Electronics and IoT prototypes in collaboration with tech experts.}
+        \resumeItem{Designed and built IoT-based systems using Raspberry Pi, Arduino, and various microcontrollers.}
+        \resumeItem{Contributed to core research and development projects while efficiently managing academic and project responsibilities.
+
+}
+      \resumeItemListEnd
+\resumeSubHeadingListEnd
+
+\vspace{-15pt}
+%-----------PROJECTS-----------
+\section{Projects}
+    \vspace{-7pt}
+    \resumeSubHeadingListStart
+    \resumeProjectHeading       
+          {\textbf{Smart Treadmill} $|$ \emph{Python
+  \href{http://github.com/Shubhangmishra5/vfd_modbus}{\faGithub} }} {February 2024}
+          \resumeItemListStart
+            \resumeItem{Developed a smart treadmill from scratch using Raspberry Pi and VFD, integrating motor control, heart rate sensing, and health monitoring
+features for personalized workouts.}
+            \resumeItem{Enabled health tracking by recording workout data, including distance and heart rate, to support user fitness goals.}
+            
+            
+          \resumeItemListEnd 
+          \vspace{-20pt}
+    \resumeProjectHeading       
+          {\textbf{Oxygen Generator using microalgae} $|$ \emph{C
+  \href{shorturl.at/fqU7Z}{\faGithub} }} {April 2024}
+          \resumeItemListStart
+            \resumeItem{Developed an eco-friendly Oxygen Generator using microalgae for sustainable oxygen production, with sensors to analyze oxygen levels and
+environmental pollution.
+}
+            \resumeItem{Utilized an ESP32 microcontroller to enable remote monitoring and real-time analysis via an online dashboard accessible from anywhere.
+}
+           
+          \resumeItemListEnd 
+          \vspace{-17pt}
+      \resumeProjectHeading       
+          {\textbf{Personal Voice Assistant} $|$ \emph{Python \href{https://github.com/Shubhangmishra5/voice_assistant}{\faGithub} }}{August 2023}
+          \resumeItemListStart
+            \resumeItem{Built a Python-based voice assistant with speech recognition and text-to-speech capabilities.}
+            \resumeItem{Integrated APIs (WolframAlpha, OpenWeatherMap) for smart query handling and live updates.}
+            \resumeItem{Automated tasks like web search, app control, weather info, and system commands.}
+          \resumeItemListEnd 
+          \vspace{-17pt}
+      \resumeProjectHeading
+          {\textbf{QR Generator} $|$ \emph{HTML, CSS, JS \href{https://github.com/Ishika2/Groovy}{\faGithub} }}{September 2024}
+          \resumeItemListStart
+            \resumeItem{Enabled real-time preview, dark mode, and smooth user interaction using HTML, CSS, and JavaScript.
+
+}
+            \resumeItem{Implemented an interactive and responsive UI with dark mode toggle, real-time QR preview, and integrated sharing functionality for enhanced user experience.}
+          \resumeItemListEnd 
+          \vspace{-13pt}
+    \resumeSubHeadingListEnd
+
+\vspace{-4.6pt}
+%-----------ACHIEVEMENTS-------------
+\section{Achievements}
+
+      \resumeItemListStart
+      
+        \resumeItem{Finalist at Electrothon 6.0 by NIT Hamirpur; won Orkes Challenge and Scavenger Hunt.}       
+        \resumeItem{Attained a \textbf{top 15} position in \textbf{Hackaccino}, hosted by \textbf{Bennett University} , demonstrating competitive coding skills.} 
+        \resumeItem{Represented BigBlare Innovations at the UP International Trade Show 2024}
+      \resumeItemListEnd
+            
+    % \resumeSubHeadingListEnd
+
+\vspace{-10.5pt}
+%-----------TECHNICAL SKILLS---------------
+\section{Technical Skills}
+  
+        {\textbf{Programming Languages}: C, Python, JavaScript}\\
+        {\textbf{Databases}: MySQL}\\
+        {\textbf{OS}: Windows, LINUX}\\
+        {\textbf{Developer Tools}: Git, GitHub, VS Code}\\
+        {\textbf{Hardware Skills}: Arduino, Raspberry Pi, ESP32, Embedded Systems, Circuit Design}\\
+
+\vspace{-5pt}
+%-----------INVOLVEMENT---------------
+\section{Leadership \& Volunteering}
+    \resumeSubHeadingListStart
+    \resumeSubheading{IDEATHON 2024}{NewGen IEDC}{Organiser}{\textbf{July 2023 -- August 2023}}
+
+        \resumeSubheading{HackWithDelhi, GL Bajaj}{Greater Noida}{Volunteer for Hackathon}{\textbf{May 2024 -- June 2023}}
+            
+    \resumeSubHeadingListEnd
+
+\end{document}
